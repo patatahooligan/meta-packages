@@ -1,0 +1,44 @@
+# Maintainer: Hugo Osvaldo Barrera <hugo@barrera.io>
+
+pkgname=patatahooligan-base-install
+pkgver=2020.04.23
+pkgrel=1
+pkgdesc='Meta-package for my base installation.'
+arch=('any')
+license=('none')
+depends=(
+    'base'
+    'bat'
+    'cpupower'
+    'diff-so-fancy'
+    'e2fsprogs'
+    'fzf'
+    'git'
+    'htop'
+    'linux-firmware'
+    'linux-zen'
+    'logrotate'
+    'less'
+    'man-db'
+    'man-pages'
+    'nano'
+    'networkmanager'
+    'ntfs-3g'
+    'pacman-contrib'
+    'refind'
+    'stow'
+    'sudo'
+    'tldr'
+    'tree'
+    'unbound'
+    'wget'
+    'which'
+    'zsh'
+    'zsh-autosuggestions'
+    'zsh-completions'
+    'zsh-syntax-highlighting'
+)
+optdepends=(
+    'amd-ucode'
+)
+

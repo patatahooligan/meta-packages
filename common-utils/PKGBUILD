@@ -1,0 +1,20 @@
+# Maintainer: Hugo Osvaldo Barrera <hugo@barrera.io>
+
+pkgname=patatahooligan-common-utils
+pkgver=20200423
+pkgrel=1
+pkgdesc='Meta-package for commonly used programs.'
+arch=('any')
+license=('none')
+depends=(
+    'alsa-utils'
+    'baobab'
+    'firefox'
+    'musescore'
+    'opera'
+    'pulseeffects'
+    'signal-desktop'
+    'speedtest-cli'
+    'qbittorrent'
+    'vlc'
+)

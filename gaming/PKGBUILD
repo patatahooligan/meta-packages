@@ -1,0 +1,21 @@
+# Maintainer: Hugo Osvaldo Barrera <hugo@barrera.io>
+
+pkgname=patatahooligan-gaming
+pkgver=20200423
+pkgrel=1
+pkgdesc='Meta-package for apps and libs for gaming.'
+arch=('any')
+license=('none')
+depends=(
+    'discord'
+    'lutris'
+    'mesa'
+    'puzzles'
+    'steam'
+    'vulkan-radeon'
+    'wine-gecko'
+    'wine-mono'
+    'wine-nine'
+    'wine-staging'
+    'winetricks'
+)
