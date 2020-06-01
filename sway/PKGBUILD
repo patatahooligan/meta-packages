@@ -1,0 +1,15 @@
+# Maintainer: Hugo Osvaldo Barrera <hugo@barrera.io>
+
+pkgname=patatahooligan-sway
+pkgver=2020.06.02
+pkgrel=1
+pkgdesc='Meta-package for my sway setup.'
+arch=('any')
+license=('none')
+depends=(
+    'kitty'
+    'sway'
+    'swaybg'
+    'swayidle'
+    'swaylock'
+)
