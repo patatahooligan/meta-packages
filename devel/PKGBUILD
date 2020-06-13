@@ -1,7 +1,7 @@
 # Maintainer: Hugo Osvaldo Barrera <hugo@barrera.io>
 
 pkgname=patatahooligan-devel
-pkgver=2020.06.01
+pkgver=2020.06.12
 pkgrel=1
 pkgdesc='Meta-package for commonly development tools.'
 arch=('any')
@@ -14,7 +14,7 @@ depends=(
     'gdb'
     'git'
     'make'
-    'otf-fira-code'
+    'ttf-fira-code'
     'patch'
     'vim'
 )
