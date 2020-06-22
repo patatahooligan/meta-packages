@@ -1,7 +1,7 @@
 # Maintainer: Hugo Osvaldo Barrera <hugo@barrera.io>
 
 pkgname=patatahooligan-sway
-pkgver=2020.06.13
+pkgver=2020.06.23
 pkgrel=1
 pkgdesc='Meta-package for my sway setup.'
 arch=('any')
@@ -9,9 +9,11 @@ license=('none')
 depends=(
     'dmenu'
     'kitty'
+    'pavucontrol'
     'sway'
     'swaybg'
     'swayidle'
     'swaylock'
+    'waybar'
     'xcursor-pinux'
 )
