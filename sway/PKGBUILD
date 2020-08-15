@@ -1,12 +1,13 @@
 # Maintainer: Hugo Osvaldo Barrera <hugo@barrera.io>
 
 pkgname=patatahooligan-sway
-pkgver=2020.06.23
+pkgver="$(date -I | sed 's/-/./g')"
 pkgrel=1
 pkgdesc='Meta-package for my sway setup.'
 arch=('any')
 license=('none')
 depends=(
+    'alsa-utils'
     'dmenu'
     'kitty'
     'pavucontrol'
