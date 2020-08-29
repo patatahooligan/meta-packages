@@ -1,5 +1,5 @@
 pkgname=patatahooligan-common-utils
-pkgver=2020.06.13
+pkgver="$(date -I | sed 's/-/./g')"
 pkgrel=1
 pkgdesc='Meta-package for commonly used programs.'
 arch=('any')
@@ -9,11 +9,11 @@ depends=(
     'baobab'
     'exa'
     'firefox'
+    'mpv'
     'musescore'
     'opera'
     'pulseeffects'
     'signal-desktop'
     'speedtest-cli'
     'qbittorrent'
-    'vlc'
 )
