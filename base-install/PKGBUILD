@@ -1,5 +1,5 @@
 pkgname=patatahooligan-base-install
-pkgver=2020.09.18
+pkgver=2020.09.19
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
@@ -35,7 +35,6 @@ depends=(
     'zsh-autosuggestions'
     'zsh-completions'
     'zsh-syntax-highlighting'
-    'zsh-theme-powerlevel10k'
 )
 optdepends=(
     'amd-ucode'

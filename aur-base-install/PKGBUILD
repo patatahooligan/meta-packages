@@ -6,4 +6,5 @@ arch=('any')
 license=('none')
 depends=(
     'yay'
+    'zsh-theme-powerlevel10k-git'
 )
