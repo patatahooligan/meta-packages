@@ -1,5 +1,5 @@
 pkgname=patatahooligan-devel
-pkgver=2020.06.12
+pkgver=2020.09.22
 pkgrel=1
 pkgdesc='Meta-package for commonly development tools.'
 arch=('any')
@@ -15,4 +15,5 @@ depends=(
     'ttf-fira-code'
     'patch'
     'vim'
+    'vim-molokai'
 )
