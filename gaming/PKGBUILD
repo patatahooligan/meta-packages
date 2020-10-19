@@ -1,11 +1,13 @@
 pkgname=patatahooligan-gaming
-pkgver=20200423
+pkgver=2020.10.19
 pkgrel=1
 pkgdesc='Meta-package for apps and libs for gaming.'
 arch=('any')
 license=('none')
 depends=(
     'discord'
+    'gamemode'
+    'lib32-gamemode'
     'lutris'
     'mesa'
     'puzzles'
