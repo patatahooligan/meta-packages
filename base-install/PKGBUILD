@@ -1,11 +1,13 @@
 pkgname=patatahooligan-base-install
-pkgver=2020.09.19
+pkgver=2020.12.08
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
 license=('none')
 depends=(
     'base'
+    'bash'
+    'bash-completion'
     'bat'
     'cpupower'
     'diff-so-fancy'
