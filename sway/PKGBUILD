@@ -1,5 +1,5 @@
 pkgname=patatahooligan-sway
-pkgver="$(date -I | sed 's/-/./g')"
+pkgver=2020.12.08
 pkgrel=1
 pkgdesc='Meta-package for my sway setup.'
 arch=('any')
@@ -14,5 +14,6 @@ depends=(
     'swayidle'
     'swaylock'
     'waybar'
+    'wofi'
     'xcursor-pinux'
 )
