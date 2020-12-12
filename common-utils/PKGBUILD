@@ -7,6 +7,7 @@ license=('none')
 depends=(
     'alsa-utils'
     'baobab'
+    'bashtop'
     'exa'
     'firefox'
     'mpv'
@@ -14,6 +15,7 @@ depends=(
     'pulseeffects'
     'signal-desktop'
     'speedtest-cli'
+    'subdl'
     'vivaldi'
     'qbittorrent'
 )
