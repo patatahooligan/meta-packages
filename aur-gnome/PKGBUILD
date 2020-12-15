@@ -1,5 +1,5 @@
 pkgname=patatahooligan-aur-gnome
-pkgver=2020.04.23
+pkgver=2020.12.12
 pkgrel=1
 pkgdesc='Meta-package for my gnome setup from the AUR.'
 arch=('any')
@@ -7,5 +7,4 @@ license=('none')
 depends=(
     'adwaita-qt'
     'gnome-shell-extension-topicons-plus-git'
-    'gnome-shell-extension-workspace-matrix'
 )
