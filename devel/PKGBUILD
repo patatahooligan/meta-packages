@@ -1,5 +1,5 @@
 pkgname=patatahooligan-devel
-pkgver=2021.01.16
+pkgver=2021.07.07
 pkgrel=1
 pkgdesc='Meta-package for commonly development tools.'
 arch=('any')
@@ -12,6 +12,5 @@ depends=(
     'gdb'
     'git'
     'make'
-    'ttf-fira-code'
     'patch'
 )
