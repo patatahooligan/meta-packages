@@ -1,5 +1,5 @@
 pkgname=patatahooligan-gnome
-pkgver=2020.12.15
+pkgver=2021.06.10
 pkgrel=1
 pkgdesc='Meta-package for my gnome setup.'
 arch=('any')
@@ -16,6 +16,7 @@ depends=(
     'kitty'
     'papirus-icon-theme'
     'qt5-wayland'
+    'qt6-wayland'
     'thunar'
     'xcursor-pinux'
 )
