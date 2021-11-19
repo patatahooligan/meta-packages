@@ -1,0 +1,11 @@
+pkgname=patatahooligan-aur-devel
+pkgver=2021.11.19
+pkgrel=1
+pkgdesc='Meta-package for common development tools from the AUR.'
+arch=('any')
+license=('none')
+depends=(
+    'neovim-lspconfig-git'
+    'neovim-orgmode-git'
+    'neovim-symlinks'
+)
