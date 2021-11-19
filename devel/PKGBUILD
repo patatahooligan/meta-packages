@@ -1,5 +1,5 @@
 pkgname=patatahooligan-devel
-pkgver=2021.11.11
+pkgver=2021.11.19
 pkgrel=1
 pkgdesc='Meta-package for commonly development tools.'
 arch=('any')
@@ -19,4 +19,5 @@ depends=(
 
 optdepends=(
     'clang: for neovim LSP support'
+    'rust-analyzer: for neovim LSP support'
 )
