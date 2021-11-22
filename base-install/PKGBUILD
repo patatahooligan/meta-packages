@@ -1,5 +1,5 @@
 pkgname=patatahooligan-base-install
-pkgver=2021.07.13
+pkgver=2021.11.22
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
@@ -17,7 +17,6 @@ depends=(
     'git'
     'htop'
     'linux-firmware'
-    'linux-zen'
     'logrotate'
     'less'
     'man-db'
@@ -43,4 +42,7 @@ depends=(
 )
 optdepends=(
     'amd-ucode'
+    'linux'
+    'linux-lts'
+    'linux-zen'
 )
