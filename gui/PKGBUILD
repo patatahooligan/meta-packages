@@ -1,5 +1,5 @@
 pkgname=patatahooligan-gui
-pkgver=2021.07.11
+pkgver=2021.11.30
 pkgrel=1
 pkgdesc='Meta-package for common graphical utilities.'
 arch=('any')
@@ -8,10 +8,12 @@ conflicts=('patatahooligan-common-utils')
 replaces=('patatahooligan-common-utils')
 
 depends=(
+    'adobe-source-code-pro-fonts'
     'alsa-utils'
     'baobab'
     'exa'
     'firefox'
+    'kitty'
     'mpv'
     'signal-desktop'
     'vivaldi'
