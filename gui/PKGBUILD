@@ -9,18 +9,17 @@ replaces=('patatahooligan-common-utils')
 
 depends=(
     'adobe-source-code-pro-fonts'
-    'alsa-utils'
-    'baobab'
     'exa'
     'firefox'
     'kitty'
     'mpv'
-    'signal-desktop'
     'vivaldi'
 )
 
 optdepends=(
+    'baobab'
     'easyeffects'
     'subdl'
     'qbittorrent'
+    'signal-desktop'
 )
