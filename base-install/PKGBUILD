@@ -1,5 +1,5 @@
 pkgname=patatahooligan-base-install
-pkgver=2021.11.22
+pkgver=2022.01.26
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
@@ -11,7 +11,7 @@ depends=(
     'bashtop'
     'bat'
     'cpupower'
-    'diff-so-fancy'
+    'git-delta'
     'e2fsprogs'
     'fzf'
     'git'
