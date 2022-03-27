@@ -1,12 +1,12 @@
 pkgname=patatahooligan-aur-gaming
-pkgver=2020.10.19
+pkgver=2022.03.27
 pkgrel=1
 pkgdesc='Meta-package for apps and libs for gaming from the AUR'
 arch=('any')
 license=('none')
 depends=(
-    'dxvk-bin'
 )
 optdepends=(
+    'dxvk-bin'
     'lutris-battlenet-meta'
 )
