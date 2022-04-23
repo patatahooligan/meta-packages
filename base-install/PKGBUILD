@@ -1,18 +1,22 @@
 pkgname=patatahooligan-base-install
-pkgver=2022.02.07
+pkgver=2022.04.23
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
 license=('none')
 depends=(
+    'apparmor'
     'base'
     'bash'
     'bash-completion'
     'bashtop'
     'bat'
+    'booster'
+    'ccache'
     'cpupower'
     'git-delta'
     'e2fsprogs'
+    'firejail'
     'fzf'
     'git'
     'htop'
@@ -25,6 +29,7 @@ depends=(
     'networkmanager'
     'ntfs-3g'
     'pacman-contrib'
+    'reflector'
     'refind'
     'speedtest-cli'
     'stow'
