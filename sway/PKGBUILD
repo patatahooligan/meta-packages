@@ -1,11 +1,12 @@
 pkgname=patatahooligan-sway
-pkgver=2021.11.30
+pkgver=2022.04.23
 pkgrel=1
 pkgdesc='Meta-package for my sway setup.'
 arch=('any')
 license=('none')
 depends=(
     'alsa-utils'
+    'archlinux-wallpaper'
     'dmenu'
     'pavucontrol'
     'qt5-wayland'

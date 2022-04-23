@@ -1,5 +1,5 @@
 pkgname=patatahooligan-gaming
-pkgver=2021.01.26
+pkgver=2022.04.23
 pkgrel=1
 pkgdesc='Meta-package for apps and libs for gaming.'
 arch=('any')
@@ -20,4 +20,5 @@ depends=(
 )
 optdepends=(
     'lutris'
+    'playonlinux'
 )

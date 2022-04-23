@@ -22,8 +22,9 @@ depends=(
 )
 
 optdepends=(
-    'baobab'
     'easyeffects'
+    'element-desktop'
+    'gammastep'
     'subdl'
     'qbittorrent'
     'signal-desktop'
