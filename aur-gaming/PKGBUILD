@@ -1,10 +1,11 @@
 pkgname=patatahooligan-aur-gaming
-pkgver=2022.03.27
+pkgver=2022.05.03
 pkgrel=1
 pkgdesc='Meta-package for apps and libs for gaming from the AUR'
 arch=('any')
 license=('none')
 depends=(
+    'proton-ge-custom-bin'
 )
 optdepends=(
     'dxvk-bin'
