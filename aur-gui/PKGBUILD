@@ -1,5 +1,5 @@
 pkgname=patatahooligan-aur-gui
-pkgver=2020.05.03
+pkgver=2020.05.06
 pkgrel=1
 pkgdesc='Meta-package for my base installation from the AUR.'
 arch=('any')
@@ -8,5 +8,4 @@ depends=(
     'adwaita-qt'
     'adwaita-qt6'
     'nerd-fonts-fira-code'
-    'zsh-theme-powerlevel10k-git'
 )
