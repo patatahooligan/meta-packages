@@ -1,5 +1,5 @@
 pkgname=patatahooligan-gui
-pkgver=2022.05.14
+pkgver=2022.10.08
 pkgrel=1
 pkgdesc='Meta-package for common graphical utilities.'
 arch=('any')
@@ -15,6 +15,7 @@ depends=(
     'firefox'
     'foot'
     'mpv'
+    'nautilus'
     'pipewire'
     'pipewire-pulse'
     'ttf-iosevka-nerd'
