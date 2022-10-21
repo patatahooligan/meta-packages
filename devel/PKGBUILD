@@ -21,6 +21,6 @@ optdepends=(
     'clang: for neovim LSP support'
     'git-lfs'
     'ninja'
-    'rustup'
     'rust-analyzer: for neovim LSP support'
+    'rustup'
 )
