@@ -1,7 +1,7 @@
 pkgname=patatahooligan-devel
 pkgver=2022.04.23
 pkgrel=1
-pkgdesc='Meta-package for commonly development tools.'
+pkgdesc='Meta-package for development tools.'
 arch=('any')
 license=('none')
 depends=(
