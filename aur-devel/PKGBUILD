@@ -1,5 +1,5 @@
 pkgname=patatahooligan-aur-devel
-pkgver=2022.10.19
+pkgver=2022.10.21
 pkgrel=1
 pkgdesc='Meta-package for common development tools from the AUR.'
 arch=('any')
@@ -7,4 +7,5 @@ license=('none')
 depends=(
     'neovim-lspconfig'
     'neovim-symlinks'
+    'vim-plug-neo'
 )
