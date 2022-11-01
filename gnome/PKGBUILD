@@ -5,12 +5,12 @@ pkgdesc='Meta-package for my gnome setup.'
 arch=('any')
 license=('none')
 depends=(
-    'gnome-shell-extension-appindicator'
     'dconf-editor'
     'eog'
     'gdm'
     'gnome-control-center'
     'gnome-shell'
+    'gnome-shell-extension-appindicator'
     'gnome-shell-extensions'
     'gnome-themes-extra'
     'gnome-tweaks'
