@@ -1,10 +1,10 @@
 pkgname=patatahooligan-aur-base-install
-pkgver=2021.01.22
+pkgver=2022.12.01
 pkgrel=1
 pkgdesc='Meta-package for my base installation from the AUR.'
 arch=('any')
 license=('none')
 depends=(
-    'meta-group-base-devel'
+    'base-devel-meta'
     'paru'
 )
