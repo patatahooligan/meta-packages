@@ -1,5 +1,5 @@
 pkgname=patatahooligan-base-install
-pkgver=2023.01.11
+pkgver=2023.01.26
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
@@ -33,7 +33,7 @@ depends=(
     'speedtest-cli'
     'stow'
     'sudo'
-    'tldr'
+    'tealdeer'
     'tree'
     'unbound'
     'usbutils'
