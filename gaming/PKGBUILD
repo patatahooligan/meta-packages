@@ -1,5 +1,5 @@
 pkgname=patatahooligan-gaming
-pkgver=2022.11.01
+pkgver=2023.02.09
 pkgrel=1
 pkgdesc='Meta-package for apps and libs for gaming.'
 arch=('any')
@@ -12,15 +12,16 @@ depends=(
     'puzzles'
     'steam'
     'vulkan-radeon'
+)
+optdepends=(
+    'corectrl: To manage AMD CPU/GPU performance'
+    'lutris'
+    'lutris-battlenet-meta'
+    'mono: For Cities: Skylines mods'
+    'playonlinux'
     'wine-gecko'
     'wine-mono'
     'wine-nine'
     'wine-staging'
     'winetricks'
-)
-optdepends=(
-    'corectrl: To manage AMD CPU/GPU performance'
-    'lutris'
-    'mono: For Cities: Skylines mods'
-    'playonlinux'
 )
