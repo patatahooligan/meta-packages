@@ -1,5 +1,5 @@
 pkgname=patatahooligan-base-install
-pkgver=2023.01.26
+pkgver=2023.02.16
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
@@ -7,6 +7,7 @@ license=('none')
 depends=(
     'apparmor'
     'base'
+    'base-devel'
     'bash'
     'bash-completion'
     'bat'
