@@ -1,5 +1,5 @@
 pkgname=patatahooligan-sway
-pkgver=2022.04.23
+pkgver=2023.04.29
 pkgrel=1
 pkgdesc='Meta-package for my sway setup.'
 arch=('any')
@@ -11,6 +11,7 @@ depends=(
     'pavucontrol'
     'qt5-wayland'
     'qt6-wayland'
+    'slurp'
     'sway'
     'swaybg'
     'swayidle'
@@ -18,4 +19,5 @@ depends=(
     'waybar'
     'wofi'
     'xcursor-pinux'
+    'xdg-desktop-portal-wlr'
 )
