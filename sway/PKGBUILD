@@ -8,6 +8,7 @@ depends=(
     'alsa-utils'
     'archlinux-wallpaper'
     'dmenu'
+    'easyeffects'
     'pavucontrol'
     'qt5-wayland'
     'qt6-wayland'
