@@ -1,0 +1,16 @@
+pkgname=patatahooligan-hyprland
+pkgver=2023.05.31
+pkgrel=1
+pkgdesc='Meta-package for my sway setup.'
+arch=('any')
+license=('none')
+depends=(
+    'easyeffects'
+    'hyprland'
+    'pavucontrol'
+    'qt5-wayland'
+    'qt6-wayland'
+    'waybar'
+    'wofi'
+    'xcursor-pinux'
+)
