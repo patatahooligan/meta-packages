@@ -9,4 +9,5 @@ depends=(
 )
 optdepends=(
     'dxvk-bin'
+    'lutris-wine-meta'
 )
