@@ -1,5 +1,5 @@
 pkgname=patatahooligan-base-install
-pkgver=2023.02.16
+pkgver=2023.07.01
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
@@ -20,6 +20,7 @@ depends=(
     'git'
     'git-delta'
     'htop'
+    'iptables-nft'
     'less'
     'linux-firmware'
     'logrotate'
