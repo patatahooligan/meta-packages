@@ -1,11 +1,12 @@
 pkgname=patatahooligan-cli
-pkgver=2022.04.23
+pkgver=2022.07.12
 pkgrel=1
 pkgdesc='Meta-package for common cli utilities.'
 arch=('any')
 license=('none')
 
 depends=(
+    'bat'
     'dust'
     'prettyping'
 )
