@@ -1,5 +1,5 @@
 pkgname=patatahooligan-sway
-pkgver=2023.04.29
+pkgver=2023.08.11
 pkgrel=1
 pkgdesc='Meta-package for my sway setup.'
 arch=('any')
