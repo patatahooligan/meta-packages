@@ -1,5 +1,5 @@
 pkgname=patatahooligan-cli
-pkgver=2023.07.25
+pkgver=2023.10.27
 pkgrel=1
 pkgdesc='Meta-package for common cli utilities.'
 arch=('any')
@@ -9,8 +9,10 @@ depends=(
     'bat'
     'bat-extras'
     'btop'
+    'choose'
     'duf'
     'dust'
     'fd'
     'prettyping'
+    'rsync'
 )
