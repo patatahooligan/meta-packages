@@ -9,8 +9,6 @@ replaces=('patatahooligan-common-utils')
 
 depends=(
     'adobe-source-code-pro-fonts'
-    'adwaita-qt5'
-    'adwaita-qt6'
     'exa'
     'firefox'
     'foot'
