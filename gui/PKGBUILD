@@ -1,7 +1,7 @@
 pkgname=patatahooligan-gui
-pkgver=2022.11.13
+pkgver=2023.10.27
 pkgrel=1
-pkgdesc='Meta-package for common graphical utilities.'
+pkgdesc='Meta-package for graphical apps & dependencies across all DEs'
 arch=('any')
 license=('none')
 conflicts=('patatahooligan-common-utils')
@@ -14,20 +14,24 @@ depends=(
     'exa'
     'firefox'
     'foot'
+    'libva-mesa-driver'
+    'mesa-vdpau'
     'mpv'
     'nautilus'
+    'neovide'
     'pipewire'
     'pipewire-pulse'
+    'qbittorrent'
     'ttf-firacode-nerd'
     'ttf-iosevka-nerd'
     'wl-clipboard'
+    'xf86-video-amdgpu'
 )
 
 optdepends=(
     'easyeffects'
     'element-desktop'
     'gammastep'
-    'qbittorrent'
     'signal-desktop'
     'subdl'
 )
