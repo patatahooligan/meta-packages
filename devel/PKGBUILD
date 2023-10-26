@@ -18,6 +18,7 @@ depends=(
     'make'
     'neovim'
     'patch'
+    'pyenv'
     'python-pipenv'
     'ripgrep'
 )
