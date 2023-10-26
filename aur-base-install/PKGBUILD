@@ -1,9 +1,11 @@
 pkgname=patatahooligan-aur-base-install
-pkgver=2023.02.12
+pkgver=2023.10.27
 pkgrel=1
 pkgdesc='Meta-package for my base installation from the AUR.'
 arch=('any')
 license=('none')
 depends=(
+    'neovim-symlinks'
     'paru'
+    'vim-plug-neo'
 )
