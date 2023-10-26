@@ -27,6 +27,8 @@ depends=(
     'man-db'
     'man-pages'
     'neovim'
+    'neovim-lspconfig'
+    'neovim-nvim-treesitter'
     'networkmanager'
     'ntfs-3g'
     'pacman-contrib'
