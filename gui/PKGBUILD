@@ -23,7 +23,6 @@ depends=(
     'ttf-firacode-nerd'
     'ttf-iosevka-nerd'
     'wl-clipboard'
-    'xf86-video-amdgpu'
 )
 
 optdepends=(
@@ -32,4 +31,6 @@ optdepends=(
     'gammastep'
     'signal-desktop'
     'subdl'
+    'xf86-video-amdgpu'
+    'xf86-video-intel'
 )
