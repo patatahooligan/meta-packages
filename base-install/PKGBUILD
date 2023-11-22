@@ -6,6 +6,7 @@ arch=('any')
 license=('none')
 depends=(
     'apparmor'
+    'atuin'
     'base'
     'base-devel'
     'bash'
