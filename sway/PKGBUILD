@@ -1,5 +1,5 @@
 pkgname=patatahooligan-sway
-pkgver=2023.08.11
+pkgver=2024.01.02
 pkgrel=1
 pkgdesc='Meta-package for my sway setup.'
 arch=('any')
@@ -21,4 +21,5 @@ depends=(
     'wofi'
     'xcursor-pinux'
     'xdg-desktop-portal-wlr'
+    'xorg-xwayland'
 )
