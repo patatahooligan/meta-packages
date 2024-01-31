@@ -1,5 +1,5 @@
 pkgname=patatahooligan-gui
-pkgver=2024.01.21
+pkgver=2024.01.31
 pkgrel=1
 pkgdesc='Meta-package for graphical apps & dependencies across all DEs'
 arch=('any')
@@ -17,6 +17,9 @@ depends=(
     'mpv'
     'nautilus'
     'neovide'
+    'noto-fonts'
+    'noto-fonts-cjk'
+    'noto-fonts-emoji'
     'pipewire'
     'pipewire-pulse'
     'qbittorrent'
