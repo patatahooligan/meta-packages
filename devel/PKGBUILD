@@ -1,5 +1,5 @@
 pkgname=patatahooligan-devel
-pkgver=2023.10.27
+pkgver=2024.05.27
 pkgrel=1
 pkgdesc='Meta-package for development tools.'
 arch=('any')
@@ -16,7 +16,6 @@ depends=(
     'gdb'
     'git'
     'make'
-    'neovim'
     'patch'
     'pyenv'
     'python-pipenv'
@@ -26,6 +25,5 @@ depends=(
 optdepends=(
     'git-lfs'
     'ninja'
-    'rust-analyzer: for neovim LSP support'
     'rustup'
 )
