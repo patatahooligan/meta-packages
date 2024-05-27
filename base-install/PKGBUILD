@@ -1,5 +1,5 @@
 pkgname=patatahooligan-base-install
-pkgver=2023.11.29
+pkgver=2024.05.27
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
@@ -27,8 +27,6 @@ depends=(
     'man-db'
     'man-pages'
     'neovim'
-    'neovim-lspconfig'
-    'neovim-nvim-treesitter'
     'networkmanager'
     'ntfs-3g'
     'otf-commit-mono-nerd'
