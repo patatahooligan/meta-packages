@@ -1,5 +1,5 @@
 pkgname=patatahooligan-base-install
-pkgver=2024.05.27
+pkgver=2024.09.12
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
@@ -47,7 +47,6 @@ depends=(
     'zsh-autosuggestions'
     'zsh-completions'
     'zsh-syntax-highlighting'
-    'zsh-theme-powerlevel10k'
 )
 optdepends=(
     'linux'
