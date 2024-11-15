@@ -1,5 +1,5 @@
 pkgname=patatahooligan-gui
-pkgver=2024.01.31
+pkgver=2024.11.15
 pkgrel=1
 pkgdesc='Meta-package for graphical apps & dependencies across all DEs'
 arch=('any')
@@ -12,8 +12,6 @@ depends=(
     'exa'
     'firefox'
     'foot'
-    'libva-mesa-driver'
-    'mesa-vdpau'
     'mpv'
     'nautilus'
     'neovide'
