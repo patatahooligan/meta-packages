@@ -1,5 +1,5 @@
 pkgname=patatahooligan-devel
-pkgver=2024.12.26
+pkgver=2024.12.30
 pkgrel=1
 pkgdesc='Meta-package for common development tools.'
 arch=('any')
@@ -10,7 +10,7 @@ depends=(
     'docker-compose'
     'gcc'
     'gdb'
-    'git'
+    'git-crypt'
     'git-lfs'
     'pyenv'
     'python-pipenv'
