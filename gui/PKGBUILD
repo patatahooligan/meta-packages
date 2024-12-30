@@ -1,5 +1,5 @@
 pkgname=patatahooligan-gui
-pkgver=2024.11.15
+pkgver=2024.12.30
 pkgrel=1
 pkgdesc='Meta-package for graphical apps & dependencies across all DEs'
 arch=('any')
@@ -9,7 +9,6 @@ replaces=('patatahooligan-common-utils')
 
 depends=(
     'adobe-source-code-pro-fonts'
-    'exa'
     'firefox'
     'foot'
     'mpv'
