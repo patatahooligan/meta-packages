@@ -1,5 +1,5 @@
 pkgname=patatahooligan-gaming
-pkgver=2023.10.27
+pkgver=2024.12.30
 pkgrel=1
 pkgdesc='Meta-package for apps and libs for gaming.'
 arch=('any')
@@ -7,6 +7,7 @@ license=('none')
 depends=(
     'discord'
     'gamemode'
+    'gamescope'
     'lib32-gamemode'
     'mangohud'
     'puzzles'
@@ -17,6 +18,7 @@ optdepends=(
     'lutris'
     'mono: For Cities: Skylines mods'
     'playonlinux'
+    'umu-launcher'
     'wine-gecko'
     'wine-mono'
     'wine-nine'
