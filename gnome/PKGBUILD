@@ -1,13 +1,11 @@
 pkgname=patatahooligan-gnome
-pkgver=2022.10.08
+pkgver=2025.02.01
 pkgrel=1
 pkgdesc='Meta-package for my gnome setup.'
 arch=('any')
 license=('none')
 depends=(
     'dconf-editor'
-    'eog'
-    'gdm'
     'gnome-control-center'
     'gnome-shell'
     'gnome-shell-extension-appindicator'
