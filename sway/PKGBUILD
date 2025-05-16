@@ -1,5 +1,5 @@
 pkgname=patatahooligan-sway
-pkgver=2024.01.02
+pkgver=2025.05.16
 pkgrel=1
 pkgdesc='Meta-package for my sway setup.'
 arch=('any')
@@ -9,6 +9,7 @@ depends=(
     'archlinux-wallpaper'
     'dmenu'
     'easyeffects'
+    'grim'
     'pavucontrol'
     'qt5-wayland'
     'qt6-wayland'
