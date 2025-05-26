@@ -1,5 +1,5 @@
 pkgname=patatahooligan-base-install
-pkgver=2025.02.10
+pkgver=2025.05.26
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
@@ -41,7 +41,6 @@ depends=(
     'tree'
     'unbound'
     'usbutils'
-    'vim-molokai'
     'wcurl'
     'which'
     'zsh'
