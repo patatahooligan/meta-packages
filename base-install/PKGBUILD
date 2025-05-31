@@ -1,5 +1,5 @@
 pkgname=patatahooligan-base-install
-pkgver=2025.05.26
+pkgver=2025.05.31
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
@@ -12,6 +12,7 @@ depends=(
     'bash-completion'
     'ccache'
     'cpupower'
+    'curl'
     'e2fsprogs'
     'eza'
     'firejail'
@@ -41,7 +42,6 @@ depends=(
     'tree'
     'unbound'
     'usbutils'
-    'wcurl'
     'which'
     'zsh'
     'zsh-autosuggestions'
