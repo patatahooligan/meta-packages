@@ -1,5 +1,5 @@
 pkgname=patatahooligan-base-install
-pkgver=2025.05.31
+pkgver=2025.06.05
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
@@ -30,6 +30,7 @@ depends=(
     'mkinitcpio'
     'neovim'
     'networkmanager'
+    'npm'
     'ntfs-3g'
     'otf-commit-mono-nerd'
     'pacman-contrib'
@@ -43,6 +44,7 @@ depends=(
     'unbound'
     'usbutils'
     'which'
+    'yarn'
     'zsh'
     'zsh-autosuggestions'
     'zsh-completions'
