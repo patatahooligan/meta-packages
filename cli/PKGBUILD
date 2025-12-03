@@ -1,5 +1,5 @@
 pkgname=patatahooligan-cli
-pkgver=2025.10.23
+pkgver=2025.12.03
 pkgrel=1
 pkgdesc='Meta-package for common cli utilities.'
 arch=('any')
@@ -8,6 +8,7 @@ license=('none')
 depends=(
     'bat'
     'bat-extras'
+    'bind' # Mostly for dig; it keeps coming up for networking tests
     'btop'
     'choose'
     'duf'
