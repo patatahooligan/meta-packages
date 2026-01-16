@@ -1,5 +1,5 @@
 pkgname=patatahooligan-base-install
-pkgver=2026.01.09
+pkgver=2026.01.17
 pkgrel=1
 pkgdesc='Meta-package for my base installation.'
 arch=('any')
@@ -13,6 +13,7 @@ depends=(
     'ccache'
     'cpupower'
     'curl'
+    'devtools'
     'e2fsprogs'
     'eza'
     'firejail'
