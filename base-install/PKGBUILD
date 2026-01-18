@@ -22,10 +22,13 @@ depends=(
     'fzf'
     'git'
     'git-delta'
+    'grub'
     'htop'
     'intel-ucode'
     'iptables-nft'
+    'kexec-tools'
     'less'
+    'linux'
     'linux-firmware'
     'logrotate'
     'man-db'
@@ -48,9 +51,4 @@ depends=(
     'usbutils'
     'which'
     'yarn'
-)
-optdepends=(
-    'linux'
-    'linux-lts'
-    'linux-zen'
 )
