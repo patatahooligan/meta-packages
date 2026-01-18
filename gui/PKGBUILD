@@ -1,5 +1,5 @@
 pkgname=patatahooligan-gui
-pkgver=2025.02.01
+pkgver=2026.01.18
 pkgrel=1
 pkgdesc='Meta-package for graphical apps & dependencies across all DEs'
 arch=('any')
@@ -9,25 +9,29 @@ replaces=('patatahooligan-common-utils')
 
 depends=(
     'adobe-source-code-pro-fonts'
+    'easyeffects'
     'eog'
     'firefox'
     'foot'
+    'gammastep'
     'gdm'
     'kitty'
+    'lib32-pipewire'
+    'lib32-pipewire-jack'
+    'lsp-plugins-lv2'
     'mpv'
     'nautilus'
     'neovide'
     'noto-fonts'
     'noto-fonts-cjk'
     'noto-fonts-emoji'
-    'lib32-pipewire'
-    'lib32-pipewire-jack'
     'pipewire'
     'pipewire-alsa'
     'pipewire-audio'
     'pipewire-jack'
     'pipewire-pulse'
     'qbittorrent'
+    'signal-desktop'
     'ttf-firacode-nerd'
     'ttf-iosevka-nerd'
     'wayland-protocols'
@@ -35,10 +39,7 @@ depends=(
 )
 
 optdepends=(
-    'easyeffects'
     'element-desktop'
-    'gammastep'
-    'signal-desktop'
     'subdl'
     'xf86-video-amdgpu'
     'xf86-video-intel'
