@@ -37,10 +37,3 @@ depends=(
     'wayland-protocols'
     'wl-clipboard'
 )
-
-optdepends=(
-    'element-desktop'
-    'subdl'
-    'xf86-video-amdgpu'
-    'xf86-video-intel'
-)
