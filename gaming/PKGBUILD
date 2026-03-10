@@ -1,5 +1,5 @@
 pkgname=patatahooligan-gaming
-pkgver=2024.12.30
+pkgver=2026.03.11
 pkgrel=1
 pkgdesc='Meta-package for apps and libs for gaming.'
 arch=('any')
@@ -15,7 +15,6 @@ depends=(
 )
 optdepends=(
     'corectrl: To manage AMD CPU/GPU performance'
-    'lutris'
     'mono: For Cities: Skylines mods'
     'playonlinux'
     'umu-launcher'
