@@ -1,0 +1,13 @@
+pkgname=patatahooligan-aur-pro-audio
+pkgver=2026.02.11
+pkgrel=1
+pkgdesc='Meta-package for my pro audio work from the AUR.'
+arch=('any')
+license=('none')
+depends=(
+    # IMPORTANT! The yabridge packages seem to crash/freeze at launch if
+    # compiled with `-march=native`. These have to be compiled with
+    # `-march=x86-64 -mtune=generic`.
+    'yabridge-wine10-git'
+    'yabridgectl-wine10-git'
+)

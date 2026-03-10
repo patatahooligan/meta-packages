@@ -1,0 +1,11 @@
+pkgname=patatahooligan-pro-audio
+pkgver=2026.02.11
+pkgrel=1
+pkgdesc='Meta-package for my pro audio work.'
+arch=('any')
+license=('none')
+depends=(
+    'carla'
+    'realtime-privileges'
+    'reaper'
+)
