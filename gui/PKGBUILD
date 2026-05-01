@@ -1,5 +1,5 @@
 pkgname=patatahooligan-gui
-pkgver=2026.03.05
+pkgver=2026.05.01
 pkgrel=1
 pkgdesc='Meta-package for graphical apps & dependencies across all DEs'
 arch=('any')
@@ -10,10 +10,10 @@ replaces=('patatahooligan-common-utils')
 depends=(
     'adobe-source-code-pro-fonts'
     'easyeffects'
+    'emptty'
     'eog'
     'firefox'
     'gammastep'
-    'gdm'
     'kitty'
     'lib32-pipewire'
     'lib32-pipewire-jack'
